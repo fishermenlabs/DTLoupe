@@ -575,13 +575,9 @@ CGAffineTransform CGAffineTransformAndScaleMake(CGFloat sx, CGFloat sy, CGFloat 
 	CGContextScaleCTM(ctx, _magnification, _magnification);
 	
 	CGContextTranslateCTM(ctx,-convertedLocation.x, -convertedLocation.y);
-
-    //Using drawViewHierarchyInRect instead of renderInContext if available to avoid crashes
-    if ([_targetRootView respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)]) {
-        [_targetRootView drawViewHierarchyInRect:_targetRootView.bounds afterScreenUpdates:YES];
-    } else {
-        [_targetRootView.layer renderInContext:ctx];
-    }
+	
+	// the loupe is not part of the rendered tree, so we don't need to hide it
+	[_targetRootView.layer renderInContext:ctx];
 	
 	UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
 	_loupeContentsLayer.contents = (__bridge id)(image.CGImage);
