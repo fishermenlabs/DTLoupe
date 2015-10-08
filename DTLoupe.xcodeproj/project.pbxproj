@@ -21,6 +21,16 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		09664EBE1BC6EBE2001BBE80 /* kb-drag-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 09664EBB1BC6EBE2001BBE80 /* kb-drag-dot.png */; };
+		09664EBF1BC6EBE2001BBE80 /* kb-drag-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 09664EBB1BC6EBE2001BBE80 /* kb-drag-dot.png */; };
+		09664EC01BC6EBE2001BBE80 /* kb-drag-dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09664EBC1BC6EBE2001BBE80 /* kb-drag-dot@2x.png */; };
+		09664EC11BC6EBE2001BBE80 /* kb-drag-dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09664EBC1BC6EBE2001BBE80 /* kb-drag-dot@2x.png */; };
+		09664EC21BC6EBE2001BBE80 /* kb-drag-dot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09664EBD1BC6EBE2001BBE80 /* kb-drag-dot@3x.png */; };
+		09664EC31BC6EBE2001BBE80 /* kb-drag-dot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09664EBD1BC6EBE2001BBE80 /* kb-drag-dot@3x.png */; };
+		09664EC51BC6EC30001BBE80 /* kb-magnifier-ranged-lo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09664EC41BC6EC30001BBE80 /* kb-magnifier-ranged-lo@2x.png */; };
+		09664EC61BC6EC30001BBE80 /* kb-magnifier-ranged-lo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09664EC41BC6EC30001BBE80 /* kb-magnifier-ranged-lo@2x.png */; };
+		09664EC81BC6EC3F001BBE80 /* kb-magnifier-ranged-hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09664EC71BC6EC3F001BBE80 /* kb-magnifier-ranged-hi@2x.png */; };
+		09664EC91BC6EC3F001BBE80 /* kb-magnifier-ranged-hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09664EC71BC6EC3F001BBE80 /* kb-magnifier-ranged-hi@2x.png */; };
 		0F01D89113B248CB00419BD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F01D89013B248CB00419BD7 /* UIKit.framework */; };
 		0F01D89313B248CB00419BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F01D89213B248CB00419BD7 /* Foundation.framework */; };
 		0F01D89513B248CB00419BD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F01D89413B248CB00419BD7 /* CoreGraphics.framework */; };
@@ -45,8 +55,6 @@
 		A7D8FF2614E16A9000BF8CCD /* Magnifier-thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF2214E16A9000BF8CCD /* Magnifier-thumb@2x.png */; };
 		A7D8FF2814E16AB600BF8CCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D8FF2714E16AB600BF8CCD /* main.m */; };
 		A7D8FF5C14E17A6600BF8CCD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D8FF3214E16DD100BF8CCD /* CoreFoundation.framework */; };
-		A7D8FF6714E17A8600BF8CCD /* kb-drag-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FEFE14E169C100BF8CCD /* kb-drag-dot.png */; };
-		A7D8FF6814E17A8600BF8CCD /* kb-drag-dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FEFF14E169C100BF8CCD /* kb-drag-dot@2x.png */; };
 		A7D8FF6914E17A8600BF8CCD /* kb-loupe-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0014E169C100BF8CCD /* kb-loupe-hi.png */; };
 		A7D8FF6A14E17A8600BF8CCD /* kb-loupe-hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0114E169C100BF8CCD /* kb-loupe-hi@2x.png */; };
 		A7D8FF6B14E17A8600BF8CCD /* kb-loupe-lo.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0214E169C100BF8CCD /* kb-loupe-lo.png */; };
@@ -54,17 +62,14 @@
 		A7D8FF6D14E17A8600BF8CCD /* kb-loupe-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0414E169C100BF8CCD /* kb-loupe-mask.png */; };
 		A7D8FF6E14E17A8600BF8CCD /* kb-loupe-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0514E169C100BF8CCD /* kb-loupe-mask@2x.png */; };
 		A7D8FF6F14E17A8600BF8CCD /* kb-magnifier-ranged-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0614E169C100BF8CCD /* kb-magnifier-ranged-hi.png */; };
-		A7D8FF7014E17A8600BF8CCD /* kb-magnifier-ranged-hi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0714E169C100BF8CCD /* kb-magnifier-ranged-hi@2x.png */; };
 		A7D8FF7114E17A8600BF8CCD /* kb-magnifier-ranged-lo-stemless.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0814E169C100BF8CCD /* kb-magnifier-ranged-lo-stemless.png */; };
 		A7D8FF7214E17A8600BF8CCD /* kb-magnifier-ranged-lo-stemless@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0914E169C100BF8CCD /* kb-magnifier-ranged-lo-stemless@2x.png */; };
 		A7D8FF7314E17A8600BF8CCD /* kb-magnifier-ranged-lo.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0A14E169C100BF8CCD /* kb-magnifier-ranged-lo.png */; };
-		A7D8FF7414E17A8600BF8CCD /* kb-magnifier-ranged-lo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0B14E169C100BF8CCD /* kb-magnifier-ranged-lo@2x.png */; };
 		A7D8FF7514E17A8600BF8CCD /* kb-magnifier-ranged-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0C14E169C100BF8CCD /* kb-magnifier-ranged-mask.png */; };
 		A7D8FF7614E17A8600BF8CCD /* kb-magnifier-ranged-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF0D14E169C100BF8CCD /* kb-magnifier-ranged-mask@2x.png */; };
 		A7D8FF7A14E17B2100BF8CCD /* DTLoupe.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A7D8FF5B14E17A6600BF8CCD /* DTLoupe.bundle */; };
-		B9ADB71C1B96258200777347 /* kb-drag-dot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9ADB7191B96258200777347 /* kb-drag-dot@3x.png */; settings = {ASSET_TAGS = (); }; };
-		B9ADB71D1B96258200777347 /* kb-loupe-hi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9ADB71A1B96258200777347 /* kb-loupe-hi@3x.png */; settings = {ASSET_TAGS = (); }; };
-		B9ADB71E1B96258200777347 /* kb-magnifier-ranged-mask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9ADB71B1B96258200777347 /* kb-magnifier-ranged-mask@3x.png */; settings = {ASSET_TAGS = (); }; };
+		B9ADB71D1B96258200777347 /* kb-loupe-hi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9ADB71A1B96258200777347 /* kb-loupe-hi@3x.png */; };
+		B9ADB71E1B96258200777347 /* kb-magnifier-ranged-mask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9ADB71B1B96258200777347 /* kb-magnifier-ranged-mask@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +83,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09664EBB1BC6EBE2001BBE80 /* kb-drag-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-drag-dot.png"; sourceTree = "<group>"; };
+		09664EBC1BC6EBE2001BBE80 /* kb-drag-dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-drag-dot@2x.png"; sourceTree = "<group>"; };
+		09664EBD1BC6EBE2001BBE80 /* kb-drag-dot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-drag-dot@3x.png"; sourceTree = "<group>"; };
+		09664EC41BC6EC30001BBE80 /* kb-magnifier-ranged-lo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-magnifier-ranged-lo@2x.png"; sourceTree = "<group>"; };
+		09664EC71BC6EC3F001BBE80 /* kb-magnifier-ranged-hi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-magnifier-ranged-hi@2x.png"; sourceTree = "<group>"; };
 		0F01D88C13B248CB00419BD7 /* Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F01D89013B248CB00419BD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F01D89213B248CB00419BD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,8 +108,6 @@
 		A7D8FEF814E1699F00BF8CCD /* AppleLoupeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppleLoupeView.xib; sourceTree = "<group>"; };
 		A7D8FEF914E1699F00BF8CCD /* LoupeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoupeView.xib; sourceTree = "<group>"; };
 		A7D8FEFA14E1699F00BF8CCD /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		A7D8FEFE14E169C100BF8CCD /* kb-drag-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-drag-dot.png"; sourceTree = "<group>"; };
-		A7D8FEFF14E169C100BF8CCD /* kb-drag-dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-drag-dot@2x.png"; sourceTree = "<group>"; };
 		A7D8FF0014E169C100BF8CCD /* kb-loupe-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-loupe-hi.png"; sourceTree = "<group>"; };
 		A7D8FF0114E169C100BF8CCD /* kb-loupe-hi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-loupe-hi@2x.png"; sourceTree = "<group>"; };
 		A7D8FF0214E169C100BF8CCD /* kb-loupe-lo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-loupe-lo.png"; sourceTree = "<group>"; };
@@ -107,11 +115,9 @@
 		A7D8FF0414E169C100BF8CCD /* kb-loupe-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-loupe-mask.png"; sourceTree = "<group>"; };
 		A7D8FF0514E169C100BF8CCD /* kb-loupe-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-loupe-mask@2x.png"; sourceTree = "<group>"; };
 		A7D8FF0614E169C100BF8CCD /* kb-magnifier-ranged-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-magnifier-ranged-hi.png"; sourceTree = "<group>"; };
-		A7D8FF0714E169C100BF8CCD /* kb-magnifier-ranged-hi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-magnifier-ranged-hi@2x.png"; sourceTree = "<group>"; };
 		A7D8FF0814E169C100BF8CCD /* kb-magnifier-ranged-lo-stemless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-magnifier-ranged-lo-stemless.png"; sourceTree = "<group>"; };
 		A7D8FF0914E169C100BF8CCD /* kb-magnifier-ranged-lo-stemless@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-magnifier-ranged-lo-stemless@2x.png"; sourceTree = "<group>"; };
 		A7D8FF0A14E169C100BF8CCD /* kb-magnifier-ranged-lo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-magnifier-ranged-lo.png"; sourceTree = "<group>"; };
-		A7D8FF0B14E169C100BF8CCD /* kb-magnifier-ranged-lo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-magnifier-ranged-lo@2x.png"; sourceTree = "<group>"; };
 		A7D8FF0C14E169C100BF8CCD /* kb-magnifier-ranged-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-magnifier-ranged-mask.png"; sourceTree = "<group>"; };
 		A7D8FF0D14E169C100BF8CCD /* kb-magnifier-ranged-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-magnifier-ranged-mask@2x.png"; sourceTree = "<group>"; };
 		A7D8FF0E14E169E500BF8CCD /* DTLoupeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLoupeView.h; sourceTree = "<group>"; };
@@ -132,7 +138,6 @@
 		A7D8FF3214E16DD100BF8CCD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		A7D8FF5B14E17A6600BF8CCD /* DTLoupe.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTLoupe.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D8FF7714E17AA000BF8CCD /* ResourceBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Info.plist"; sourceTree = "<group>"; };
-		B9ADB7191B96258200777347 /* kb-drag-dot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-drag-dot@3x.png"; sourceTree = "<group>"; };
 		B9ADB71A1B96258200777347 /* kb-loupe-hi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-loupe-hi@3x.png"; sourceTree = "<group>"; };
 		B9ADB71B1B96258200777347 /* kb-magnifier-ranged-mask@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kb-magnifier-ranged-mask@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,23 +221,23 @@
 			isa = PBXGroup;
 			children = (
 				A7D8FF7714E17AA000BF8CCD /* ResourceBundle-Info.plist */,
-				A7D8FEFE14E169C100BF8CCD /* kb-drag-dot.png */,
-				A7D8FEFF14E169C100BF8CCD /* kb-drag-dot@2x.png */,
-				B9ADB7191B96258200777347 /* kb-drag-dot@3x.png */,
-				B9ADB71A1B96258200777347 /* kb-loupe-hi@3x.png */,
 				B9ADB71B1B96258200777347 /* kb-magnifier-ranged-mask@3x.png */,
+				09664EBB1BC6EBE2001BBE80 /* kb-drag-dot.png */,
+				09664EBC1BC6EBE2001BBE80 /* kb-drag-dot@2x.png */,
+				09664EBD1BC6EBE2001BBE80 /* kb-drag-dot@3x.png */,
 				A7D8FF0014E169C100BF8CCD /* kb-loupe-hi.png */,
 				A7D8FF0114E169C100BF8CCD /* kb-loupe-hi@2x.png */,
+				B9ADB71A1B96258200777347 /* kb-loupe-hi@3x.png */,
 				A7D8FF0214E169C100BF8CCD /* kb-loupe-lo.png */,
 				A7D8FF0314E169C100BF8CCD /* kb-loupe-lo@2x.png */,
 				A7D8FF0414E169C100BF8CCD /* kb-loupe-mask.png */,
 				A7D8FF0514E169C100BF8CCD /* kb-loupe-mask@2x.png */,
 				A7D8FF0614E169C100BF8CCD /* kb-magnifier-ranged-hi.png */,
-				A7D8FF0714E169C100BF8CCD /* kb-magnifier-ranged-hi@2x.png */,
+				09664EC71BC6EC3F001BBE80 /* kb-magnifier-ranged-hi@2x.png */,
 				A7D8FF0814E169C100BF8CCD /* kb-magnifier-ranged-lo-stemless.png */,
 				A7D8FF0914E169C100BF8CCD /* kb-magnifier-ranged-lo-stemless@2x.png */,
 				A7D8FF0A14E169C100BF8CCD /* kb-magnifier-ranged-lo.png */,
-				A7D8FF0B14E169C100BF8CCD /* kb-magnifier-ranged-lo@2x.png */,
+				09664EC41BC6EC30001BBE80 /* kb-magnifier-ranged-lo@2x.png */,
 				A7D8FF0C14E169C100BF8CCD /* kb-magnifier-ranged-mask.png */,
 				A7D8FF0D14E169C100BF8CCD /* kb-magnifier-ranged-mask@2x.png */,
 			);
@@ -412,12 +417,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09664EC21BC6EBE2001BBE80 /* kb-drag-dot@3x.png in Resources */,
 				A7D8FF7A14E17B2100BF8CCD /* DTLoupe.bundle in Resources */,
 				A7084DF5183E144400C22622 /* Default-568h@2x.png in Resources */,
 				A7D8FEFB14E1699F00BF8CCD /* AppleLoupeView.xib in Resources */,
+				09664EC01BC6EBE2001BBE80 /* kb-drag-dot@2x.png in Resources */,
 				A7D8FEFC14E1699F00BF8CCD /* LoupeView.xib in Resources */,
 				A7D8FEFD14E1699F00BF8CCD /* MainWindow.xib in Resources */,
 				A7D8FF1E14E16A7E00BF8CCD /* LittleB.JPG in Resources */,
+				09664EC81BC6EC3F001BBE80 /* kb-magnifier-ranged-hi@2x.png in Resources */,
+				09664EC51BC6EC30001BBE80 /* kb-magnifier-ranged-lo@2x.png in Resources */,
+				09664EBE1BC6EBE2001BBE80 /* kb-drag-dot.png in Resources */,
 				A7D8FF2314E16A9000BF8CCD /* Loupe-hi-thumb.png in Resources */,
 				A7D8FF2414E16A9000BF8CCD /* Loupe-hi-thumb@2x.png in Resources */,
 				A7D8FF2514E16A9000BF8CCD /* Magnifier-thumb.png in Resources */,
@@ -429,24 +439,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D8FF6714E17A8600BF8CCD /* kb-drag-dot.png in Resources */,
-				A7D8FF6814E17A8600BF8CCD /* kb-drag-dot@2x.png in Resources */,
 				A7D8FF6914E17A8600BF8CCD /* kb-loupe-hi.png in Resources */,
 				A7D8FF6A14E17A8600BF8CCD /* kb-loupe-hi@2x.png in Resources */,
 				A7D8FF6B14E17A8600BF8CCD /* kb-loupe-lo.png in Resources */,
+				09664EC11BC6EBE2001BBE80 /* kb-drag-dot@2x.png in Resources */,
 				A7D8FF6C14E17A8600BF8CCD /* kb-loupe-lo@2x.png in Resources */,
+				09664EC31BC6EBE2001BBE80 /* kb-drag-dot@3x.png in Resources */,
 				A7D8FF6D14E17A8600BF8CCD /* kb-loupe-mask.png in Resources */,
 				A7D8FF6E14E17A8600BF8CCD /* kb-loupe-mask@2x.png in Resources */,
 				A7D8FF6F14E17A8600BF8CCD /* kb-magnifier-ranged-hi.png in Resources */,
-				B9ADB71C1B96258200777347 /* kb-drag-dot@3x.png in Resources */,
-				A7D8FF7014E17A8600BF8CCD /* kb-magnifier-ranged-hi@2x.png in Resources */,
+				09664EC61BC6EC30001BBE80 /* kb-magnifier-ranged-lo@2x.png in Resources */,
 				B9ADB71D1B96258200777347 /* kb-loupe-hi@3x.png in Resources */,
 				A7D8FF7114E17A8600BF8CCD /* kb-magnifier-ranged-lo-stemless.png in Resources */,
 				A7D8FF7214E17A8600BF8CCD /* kb-magnifier-ranged-lo-stemless@2x.png in Resources */,
 				A7D8FF7314E17A8600BF8CCD /* kb-magnifier-ranged-lo.png in Resources */,
-				A7D8FF7414E17A8600BF8CCD /* kb-magnifier-ranged-lo@2x.png in Resources */,
 				A7D8FF7514E17A8600BF8CCD /* kb-magnifier-ranged-mask.png in Resources */,
 				A7D8FF7614E17A8600BF8CCD /* kb-magnifier-ranged-mask@2x.png in Resources */,
+				09664EBF1BC6EBE2001BBE80 /* kb-drag-dot.png in Resources */,
+				09664EC91BC6EC3F001BBE80 /* kb-magnifier-ranged-hi@2x.png in Resources */,
 				B9ADB71E1B96258200777347 /* kb-magnifier-ranged-mask@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
